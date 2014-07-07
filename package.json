@@ -23,6 +23,7 @@
     "karma-bro": "^0.3.0",
     "karma-chai": "^0.1.0",
     "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sauce-launcher": "^0.2.9",
     "karma-mocha": "^0.1.3"
   }
 }
