@@ -40,7 +40,7 @@ configSauceLabs = (opts) ->
   # browser 'internet explorer', '10', 'Windows 7'
   browser 'internet explorer', '11', 'Windows 7'
 
-  opts.sauceLabs = testName: 'iframe-script-loader'
+  opts.sauceLabs = testName: 'iframe-script'
   opts.customLaunchers = customLaunchers
   opts.reporters = ['saucelabs']
   opts.browsers = Object.keys customLaunchers
