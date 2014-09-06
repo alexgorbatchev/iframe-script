@@ -1,6 +1,6 @@
 {
   "name": "iframe-script",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./lib/iframe-script.js",
   "description": "Allows you to sandbox your client scripts inside an IFRAME to avoid conflicts when deploying to 3rd party sites.",
   "keywords": [
