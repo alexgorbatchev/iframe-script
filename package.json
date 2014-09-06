@@ -10,7 +10,7 @@
     "script"
   ],
   "scripts": {
-    "pretest": "browserify --outfile=lib/iframe-script.js --entry=src/iframe-script.coffee --extension=.coffee --transform=coffeeify --standalone='iframe-script'",
+    "pretest": "coffee --output lib --bare src/iframe-script.coffee",
     "test": "./test.sh",
     "dev": "./node_modules/karma/bin/karma start --no-single-run --auto-watch"
   },
